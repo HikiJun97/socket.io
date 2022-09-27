@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/sgn04088/study/socket.io/logs/error/.1116a1bf4d9b48e1909cb33f72b60f4d8a6abf15-audit.json",
+    "files": [
+        {
+            "date": 1664240783464,
+            "name": "/home/sgn04088/study/socket.io/logs/error/2022-09-27.error.log",
+            "hash": "285fc05820c7b6f9f8d3a4daa2fd4b14289ee4c08588e4c92034eadafe10b2f5"
+        }
+    ],
+    "hashType": "sha256"
+}

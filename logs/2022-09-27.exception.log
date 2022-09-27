@@ -1,0 +1,144 @@
+2022-09-27 12:33:22 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:9:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:33:29 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:9:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:33:37 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:9:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:39:34 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:11:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:39:44 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:11:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:39:53 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:11:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:40:20 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:11:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:40:25 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:11:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+2022-09-27 12:40:39 [Winston 연습 어플리케이션] error: uncaughtException: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+Error: Cannot find module 'receive.html'
+Require stack:
+- /home/sgn04088/study/socket.io/index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/sgn04088/study/socket.io/index.js:11:15)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)

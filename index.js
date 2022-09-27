@@ -1,15 +1,31 @@
 const express = require('express');
 const app = express();
+//const router = require('./router/main')(app);
+
 const http = require('http');
 const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
+const logger = require('./logger');
 
-var port = 8880;
+//var receive = require('receive.html');
+
+var port = 3000;
+
 
 app.get('/', (req, res) => {
-//  res.send('<h1>Hello world</h1>');
-	res.sendFile(__dirname + '/index.html');
+	logger.info('INDEX /');
+	res.sendFile(__dirname + '/html/index1.html');
+});
+
+app.get('/receive.html', (req, res) => {
+	logger.info('RECEIVE /');
+	res.sendFile(__dirname + '/html/receive.html');
+});
+
+app.get('/send.html', (req, res) => {
+	logger.info('SEND /');
+	res.sendFile(__dirname + '/html/send.html');
 });
 
 io.on('connection', (socket) => {
@@ -18,7 +34,8 @@ io.on('connection', (socket) => {
 
 io.on('connection', (socket) => {
   socket.on('chat message', (msg) => {
-    console.log('message: ' + msg);
+//    console.log('message: ' + msg);
+	logger.info(msg);
   });
 
   socket.on('payload', (data) => {
@@ -26,6 +43,7 @@ io.on('connection', (socket) => {
 //	console.log('data[now] : ' + data["now"]);
 //    console.log('time passed : ' + JSON.stringify(data));
     console.log('time passed : ' + data['now']);
+	logger.info(data['now']);
 //	io.emit('chat message', JSON.stringify(data));
 	io.emit('chat message', data['now']);
   });
