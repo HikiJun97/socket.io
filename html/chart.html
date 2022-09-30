@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Chart</title>
+		<style type="text/css">
+.chartBox {
+	width: 700px;
+		</style>
+	</head>
+	<body>
+		<script src="/node_modules/chart.js/dist/chart.js"></script>
+		<script src="/node_modules/luxon/build/global/luxon.js"></script>
+		<script src="/node_modules/chartjs-adapter-luxon/dist/chartjs-adapter-luxon.min.js"></script>
+		<script src="/node_modules/chartjs-plugin-streaming/dist/chartjs-plugin-streaming.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<div>
+			<canvas id="myChart"</canvas>
+		</div>
+		<script charset="utf-8">
+			var value = 0;
+			var socket = io();
+			socket.on('chat message', (msg) => {value = msg;});
+			const labels = [
+							'January',
+							'February',
+							'March',
+							'April',
+							'May',
+							'June',
+						];
+
+			const data = {
+							labels: labels,
+							datasets: [{
+											label: 'HX711',
+											backgroundColor: 'rgb(255, 99, 132)',
+											borderColor: 'rgb(255, 99, 132)',
+											data: [],
+										}]
+						};
+
+			const config = {
+							type: 'bar',
+							data,
+							options: {
+											scales: {
+															x: {
+																			type: 'realtime',
+																			realtime: {
+																							onRefresh: chart => {
+																											chart.data.datasets.forEach(dataset => {
+																															dataset.data.push({
+																																			x: Date.now(),
+																																			y: value 
+																																		});
+																														});
+																										}
+																						}
+																		},
+															y: {
+																			beginAtZero: true
+																		}
+														}
+										}
+						};
+
+			var ctx = document.getElementById('myChart').getContext('2d');
+			var myChart = new Chart(
+							ctx,
+							config
+						);
+		</script>
+	</body>
+</html>

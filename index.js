@@ -12,6 +12,7 @@ const logger = require('./logger');
 
 var port = 3000;
 
+app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
 	logger.info('INDEX /');
@@ -26,6 +27,11 @@ app.get('/receive.html', (req, res) => {
 app.get('/send.html', (req, res) => {
 	logger.info('SEND /');
 	res.sendFile(__dirname + '/html/send.html');
+});
+
+app.get('/chart.html', (req, res) => {
+	logger.info('CHART /');
+	res.sendFile(__dirname + '/html/chart.html');
 });
 
 io.on('connection', (socket) => {

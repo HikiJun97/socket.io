@@ -9,6 +9,11 @@
             "date": 1664240783464,
             "name": "/home/sgn04088/study/socket.io/logs/2022-09-27.log",
             "hash": "6bbe4e7debb7f69c695473942ec0c6ad844005a1854721caf757e3470d7a2237"
+        },
+        {
+            "date": 1664514538094,
+            "name": "/home/sgn04088/study/socket.io/logs/2022-09-30.log",
+            "hash": "eab4b9f5216afd1735bf5524dca660a4903d2d091b710243af4436923284d7fb"
         }
     ],
     "hashType": "sha256"
